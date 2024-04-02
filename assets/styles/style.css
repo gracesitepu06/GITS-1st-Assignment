@@ -1,0 +1,138 @@
+body {
+  display: grid;
+  /* gap: 20px; */
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f6f7fc;
+}
+
+nav.crumbs {
+  /* margin-right: 10px; */
+  position: fixed;
+  padding: 5px;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  /* justify-content: end; */
+  text-align: end;
+  margin-bottom: 20px;
+}
+
+.crumbs ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.crumbs-menu {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.crumbs-menu a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+.profile {
+  display: flex;
+  /* justify-content: start; */
+  align-items: center;
+  background-color: white;
+  margin: 20px;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.profile-user {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.profile-user img {
+  margin-right: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 30px;
+}
+
+.profile-name {
+  flex: 1;
+}
+
+.profile-data {
+  border-collapse: separate;
+  border-spacing: 0 8px;
+  margin-right: 20px;
+}
+
+.profile-data th,
+.profile-data td {
+  padding: 8px;
+  text-align: left;
+  /* margin-right: 30px; */
+}
+
+.button-profile button {
+  padding: 10px 20px;
+  border: 1px solid #0700f6;
+  background-color: #fff;
+  color: #0700f6;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  border-radius: 6.5px;
+  font-size: medium;
+}
+
+.button-profile button:hover {
+  background-color: #0700f6;
+  color: #fff;
+}
+
+.button-profile button.button-profile-edit:active {
+  background-color: #fff;
+  color: #0700f6;
+  border: 1px solid #0700f6;
+}
+
+.button-profile button.button-profile-contact:active {
+  background-color: #0700f6;
+  color: #fff;
+  border: 0;
+}
+
+.form-input-profile {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  max-width: 100%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.form-input-profile label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-input-profile input {
+  /* width: 100%; */
+  margin-bottom: 8px;
+  padding: 10px 20px;
+  border-color: cadetblue;
+  border-radius: 6.5px;
+  font-size: medium;
+}
+
+.button-submit {
+  padding: 10px 20px;
+  border: 0;
+  background-color: #2f6e15;
+  color: #fff;
+  border-radius: 6.5px;
+  font-size: medium;
+}
