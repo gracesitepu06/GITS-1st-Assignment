@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/styles/style.css">
+    <script src="assets/js/script.js"></script>
     <title>Task 1c</title>
 </head>
 
@@ -53,34 +54,34 @@
             </tr>
         </table>
     </section>
-    <form class="form-input-profile">
+    <form class="form-input-profile" style="display: none;">
         <div class="form-input-profile">
             <label for="name">Nama</label>
-            <input type="text" name="name" placeholder="masukkan nama Anda">
+            <input type="text" name="name" placeholder="masukkan nama Anda" required>
         </div>
         <div class="form-input-profile">
             <label for="role">Role</label>
-            <input type="text" name="role">
+            <input type="text" name="role" required>
         </div>
         <div class="form-input-profile">
             <label for="availability">Availability</label>
-            <input type="text" name="availability">
+            <input type="text" name="availability" required>
         </div>
         <div class="form-input-profile">
             <label for="age">Usia</label>
-            <input type="number" name="age">
+            <input type="number" name="age" required>
         </div>
         <div class="form-input-profile">
             <label for="location">Lokasi</label>
-            <input type="text" name="location">
+            <input type="text" name="location" required>
         </div>
         <div class="form-input-profile">
             <label for="experience">Years Experience</label>
-            <input type="number" name="experience">
+            <input type="number" name="experience" required>
         </div>
         <div class="form-input-profile">
             <label for="email">Email</label>
-            <input type="email" name="email"><br>
+            <input type="email" name="email" required><br>
         </div>
         <button class="button-submit" type="submit">SUBMIT</button>
     </form>
