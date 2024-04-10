@@ -1,14 +1,14 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
   const editBtn = document.querySelector(".button-profile-edit");
   const form = document.querySelector(".form-input-profile");
   const profileSection = document.querySelector(".profile");
 
-  editBtn.addEventListener("click", function () {
+  editBtn.addEventListener("click", () => {
     form.style.display = "block";
     profileSection.style.display = "none";
   });
 
-  form.addEventListener("submit", function (e) {
+  form.addEventListener("submit", (e) => {
     e.preventDefault();
 
     const name = form.querySelector('input[name="name"]').value;
